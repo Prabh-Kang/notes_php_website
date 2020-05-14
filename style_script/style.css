@@ -1,0 +1,10 @@
+.container ::before{
+    content: "";
+    position: absolute;
+    background: url("../icons/bg.jpg") no-repeat center center/cover;
+
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
